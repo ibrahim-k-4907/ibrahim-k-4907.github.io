@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  margin-bottom: 7px;
+}
+
+h1, p {
+  line-height: 1.6;
+}
+
+h1, h2 {
+  font-family: Baskervville;
+}
+
+h1 {
+  font-size: 44px;
+}
+
+p {
+  font-family: Questrial;
+  color: rgb(46, 43, 43)
+}
+
+span {
+  font-weight: bolder;
+}
+
+body {
+  background-color: bisque;
+}
+
+.card {
+  background-color: white;
+  width: 47%;
+  min-width: 720px;
+  margin: 20px auto;
+  border-radius: 15px;
+}
+
+.contents {
+  padding: 0 40px 40px 40px;
+}
+
+.image {
+  width: 100%;
+  height: 290px;
+  padding: 40px;
+  overflow: hidden;
+}
+
+img {
+  display: block;
+  min-width: 100%;
+  height: 250px;
+  border-radius: 12px;
+}
+
+.preparation {
+  background-color: rgba(255, 192, 203, 0.411);
+  padding: 20px;
+  border-radius: 3px;
+}
+
+.time, td {
+  color: palevioletred;
+}
+
+.prep-time li {
+  margin-left: 30px;
+}
+
+.ingredients li, .instructions li {
+  margin-left: 35px;
+}
+
+.bottom-space {
+  padding-bottom: 22px;
+}
+
+h2 {
+  margin-top: 22px;
+  font-size: 32px;
+  padding-bottom: 12px;
+  color: rgb(105, 92, 20);
+}
+
+.about {
+  padding-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  text-align: left;
+}
+
+tr {
+  border-bottom: 1px solid black;
+}
+
+th, td {
+  padding: 20px;
+}
+
+tr:last-child {
+  border-bottom: none;
+}
+
+footer {
+  text-align: center;
+}
